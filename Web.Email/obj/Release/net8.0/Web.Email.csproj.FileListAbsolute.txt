@@ -1,0 +1,12 @@
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\Web.Email\bin\Release\net8.0\Web.Email.deps.json
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\Web.Email\bin\Release\net8.0\Web.Email.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\Web.Email\bin\Release\net8.0\Web.Email.pdb
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\Web.Email\obj\Release\net8.0\Web.Email.csproj.AssemblyReference.cache
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\Web.Email\obj\Release\net8.0\Web.Email.GeneratedMSBuildEditorConfig.editorconfig
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\Web.Email\obj\Release\net8.0\Web.Email.AssemblyInfoInputs.cache
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\Web.Email\obj\Release\net8.0\Web.Email.AssemblyInfo.cs
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\Web.Email\obj\Release\net8.0\Web.Email.csproj.CoreCompileInputs.cache
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\Web.Email\obj\Release\net8.0\Web.Email.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\Web.Email\obj\Release\net8.0\refint\Web.Email.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\Web.Email\obj\Release\net8.0\Web.Email.pdb
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\Web.Email\obj\Release\net8.0\ref\Web.Email.dll

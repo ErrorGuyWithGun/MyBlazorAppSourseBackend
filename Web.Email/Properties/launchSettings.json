@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Web.Email": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
