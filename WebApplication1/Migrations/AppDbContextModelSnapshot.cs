@@ -302,6 +302,51 @@ namespace WebApplication1.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("WebApplication1.Models.Inventory.ApiTokenModel", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreatedByUserId")
+                        .IsRequired()
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime?>("ExpiresAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("InventoryId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("IsActive")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("InventoryId");
+
+                    b.HasIndex("Token")
+                        .IsUnique();
+
+                    b.ToTable("ApiTokenModel");
+                });
+
             modelBuilder.Entity("WebApplication1.Models.Inventory.CategoryModel", b =>
                 {
                     b.Property<Guid>("Id")
@@ -419,8 +464,6 @@ namespace WebApplication1.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("categoryId");
-
                     b.HasIndex("userId");
 
                     b.ToTable("InventoryModel");
@@ -456,7 +499,66 @@ namespace WebApplication1.Migrations
 
                     b.HasIndex("inventoryId");
 
-                    b.ToTable("ItemModel");
+                    b.ToTable("itemModel");
+                });
+
+            modelBuilder.Entity("WebApplication1.Models.Support.SupportTicket", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("AdminEmails")
+                        .IsRequired()
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
+
+                    b.Property<string>("CloudFileUrl")
+                        .HasMaxLength(2000)
+                        .HasColumnType("nvarchar(2000)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("InventoryTitle")
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<bool>("IsProcessed")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
+                    b.Property<string>("PageLink")
+                        .IsRequired()
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
+
+                    b.Property<int>("Priority")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("ProcessedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ReportedBy")
+                        .IsRequired()
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("Summary")
+                        .IsRequired()
+                        .HasMaxLength(2000)
+                        .HasColumnType("nvarchar(2000)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CreatedAt");
+
+                    b.HasIndex("IsProcessed");
+
+                    b.HasIndex("ReportedBy");
+
+                    b.ToTable("SupportTickets");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -510,6 +612,17 @@ namespace WebApplication1.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("WebApplication1.Models.Inventory.ApiTokenModel", b =>
+                {
+                    b.HasOne("WebApplication1.Models.Inventory.InventoryModel", "Inventory")
+                        .WithMany()
+                        .HasForeignKey("InventoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Inventory");
+                });
+
             modelBuilder.Entity("WebApplication1.Models.Inventory.DiscussionModel", b =>
                 {
                     b.HasOne("WebApplication1.Models.Inventory.InventoryModel", null)
@@ -542,11 +655,6 @@ namespace WebApplication1.Migrations
 
             modelBuilder.Entity("WebApplication1.Models.Inventory.InventoryModel", b =>
                 {
-                    b.HasOne("WebApplication1.Models.Inventory.CategoryModel", null)
-                        .WithMany("Inventories")
-                        .HasForeignKey("categoryId")
-                        .OnDelete(DeleteBehavior.SetNull);
-
                     b.HasOne("WebApplication1.Models.Authentication.User", null)
                         .WithMany()
                         .HasForeignKey("userId")
@@ -561,11 +669,6 @@ namespace WebApplication1.Migrations
                         .HasForeignKey("inventoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("WebApplication1.Models.Inventory.CategoryModel", b =>
-                {
-                    b.Navigation("Inventories");
                 });
 #pragma warning restore 612, 618
         }

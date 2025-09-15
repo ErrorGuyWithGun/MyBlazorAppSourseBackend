@@ -1,12 +1,15 @@
-using Microsoft.AspNetCore.Identity;
-using WebApplication1.Models.Authentication;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using PortaCapena.OdooJsonRpcClient;
+using PortaCapena.OdooJsonRpcClient.Models;
+using System.Text;
 using Web.Email.Model;
 using Web.Email.Services;
 using WebApplication1.Models;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
+using WebApplication1.Models.Authentication;
+using WebApplication1.Services;
 
 
 
@@ -68,8 +71,21 @@ var emailConfig = configuration
 builder.Services.AddSingleton(emailConfig);
 
 builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddHttpClient();
+
+builder.Services.AddScoped<SalesforceService>();
 
 builder.Services.AddAuthorization();
+
+var config = new OdooConfig(
+    apiUrl: "https://testproject.odoo.com/",
+    dbName: "testproject",
+    userName: "Vlad",
+    password: "WeAreHereERROR404"
+    );
+var odooClient = new OdooClient(config);
+var versionResult = await odooClient.GetVersionAsync();
+var loginResult = await odooClient.LoginAsync();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(@"Server=db26079.public.databaseasp.net; 
@@ -80,26 +96,26 @@ builder.Services.AddDbContext<AppDbContext>(options =>
                         TrustServerCertificate=True;
                         MultipleActiveResultSets=True;"));
 
-//builder.Services.AddCors(options =>
-//    {
-//        options.AddPolicy("AllowLocalhost7170", policy =>
-//        {
-//            policy.WithOrigins(configuration["Cors:Local"]!)
-//                  .AllowAnyMethod()
-//                  .AllowAnyHeader()
-//                  .AllowCredentials();
-//        });
-//    });
 builder.Services.AddCors(options =>
     {
         options.AddPolicy("AllowLocalhost7170", policy =>
         {
-            policy.WithOrigins(configuration["Cors:Online"]!)
+            policy.WithOrigins(configuration["Cors:Local"]!)
                   .AllowAnyMethod()
                   .AllowAnyHeader()
                   .AllowCredentials();
         });
     });
+//builder.Services.AddCors(options =>
+//    {
+//        options.AddPolicy("AllowLocalhost7170", policy =>
+//        {
+//            policy.WithOrigins(configuration["Cors:Online"]!)
+//                  .AllowAnyMethod()
+//                  .AllowAnyHeader()
+//                  .AllowCredentials();
+//        });
+//    });
 
 
 var app = builder.Build();

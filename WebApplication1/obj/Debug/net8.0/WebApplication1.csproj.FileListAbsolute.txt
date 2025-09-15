@@ -189,4 +189,11 @@ E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\Web.Email.pdb
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\libman.json
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\Salesforce.Common.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\Salesforce.Force.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\PortaCapena.OdooJsonRpcClient.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.staticwebassets.runtime.json
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

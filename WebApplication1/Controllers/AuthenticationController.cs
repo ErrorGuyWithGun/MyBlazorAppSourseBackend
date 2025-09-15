@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using System.ComponentModel.DataAnnotations;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -45,13 +44,13 @@ namespace WebApplication1.Controllers
             var regex = new Regex(@"^[^@\s]+@[^@\s]+\.[^@\s]+$");
             if (!regex.IsMatch(registerUser.Email))
                 return StatusCode(StatusCodes.Status403Forbidden,
-                    new Models.Response { Status = "Error", Message = "User already exists!" });
+                    new Response { Status = "Error", Message = "User already exists!" });
 
             var userExist = await _userManager.FindByEmailAsync(registerUser.Email);
             if (userExist != null)
             {
                 return StatusCode(StatusCodes.Status403Forbidden,
-                    new Models.Response { Status = "Error", Message = "User already exists!" });
+                    new Response { Status = "Error", Message = "User already exists!" });
             }
             User user = new()
             {
@@ -80,18 +79,18 @@ namespace WebApplication1.Controllers
                     if (!result.Succeeded)
                     {
                         return StatusCode(StatusCodes.Status403Forbidden,
-                        new Models.Response { Status = "Error", Message = "User Failed to Create!" });
+                        new Response { Status = "Error", Message = "User Failed to Create!" });
                     }
 
 
                     return StatusCode(StatusCodes.Status200OK,
-                        new Models.Response { Status = "Success", Message = "User create" });
+                        new Response { Status = "Success", Message = "User create" });
     
             }
             else
             {
                 return StatusCode(StatusCodes.Status403Forbidden,
-                new Models.Response { Status = "Error", Message = "This role doesnot exist!" });
+                new Response { Status = "Error", Message = "This role doesnot exist!" });
             }
 
         }

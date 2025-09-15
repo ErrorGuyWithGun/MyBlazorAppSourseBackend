@@ -9,7 +9,6 @@ using WebApplication1.Models.Inventory;
 
 namespace WebApplication1.Controllers
 {
-    
     [EnableCors("AllowLocalhost7170")]
     [Route("api/[controller]")]
     [ApiController]
@@ -19,14 +18,17 @@ namespace WebApplication1.Controllers
         private readonly AppDbContext _appDbContext;
         private readonly ILogger<InventoryController> _logger;
 
+
         public InventoryController(
             UserManager<User> userManager,
             AppDbContext appDbContext,
-            ILogger<InventoryController> logger)
+            ILogger<InventoryController> logger
+        )
         {
             _userManager = userManager;
             _appDbContext = appDbContext;
             _logger = logger;
+            ;
         }
 
         
@@ -126,9 +128,7 @@ namespace WebApplication1.Controllers
                 default:
                     break;
             }
-            
             return Ok(inventory);
-
         }
 
         [Authorize]
@@ -198,7 +198,7 @@ namespace WebApplication1.Controllers
        
             if (!string.IsNullOrWhiteSpace(searchTerm))
             {
-                inventory = inventory.Where(i => i.Name.ToLower().Contains(searchTerm));
+                inventory = inventory.Where(i => i.Name.ToLower().Contains(searchTerm.ToLower()));
             }
 
             switch(sortBy)
@@ -383,5 +383,7 @@ namespace WebApplication1.Controllers
             return StatusCode(StatusCodes.Status400BadRequest,
                   new Response { Status = "Error", Message = "Comment is Not Create" });
         }
+
+        
     }
 }

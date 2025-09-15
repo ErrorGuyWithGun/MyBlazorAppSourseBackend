@@ -10,3 +10,4 @@ E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\Web.Email\obj\
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\Web.Email\obj\Debug\net8.0\refint\Web.Email.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\Web.Email\obj\Debug\net8.0\Web.Email.pdb
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\Web.Email\obj\Debug\net8.0\ref\Web.Email.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\Web.Email\obj\Debug\net8.0\Web.Email.sourcelink.json

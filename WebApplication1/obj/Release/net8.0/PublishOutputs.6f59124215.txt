@@ -7,9 +7,12 @@ E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\WebApplication1.pdb
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Azure.Core.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Azure.Identity.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Salesforce.Common.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Salesforce.Force.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\MailKit.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.Facebook.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -47,7 +50,9 @@ E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\MimeKit.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\NETCore.MailKit.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\BouncyCastle.Crypto.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\PortaCapena.OdooJsonRpcClient.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

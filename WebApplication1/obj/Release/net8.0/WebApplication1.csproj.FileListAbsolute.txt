@@ -26,7 +26,6 @@ E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\staticwebassets.build.json.cache
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\staticwebassets.development.json
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\staticwebassets.build.endpoints.json
-E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\WebAppli.7D14BD69.Up2Date
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\WebApplication1.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\refint\WebApplication1.dll
@@ -190,3 +189,10 @@ E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Release\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Release\net8.0\Web.Email.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Release\net8.0\Web.Email.pdb
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Release\net8.0\Salesforce.Common.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Release\net8.0\Salesforce.Force.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Release\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Release\net8.0\Newtonsoft.Json.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Release\net8.0\PortaCapena.OdooJsonRpcClient.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Release\net8.0\WebApplication1.sourcelink.json
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Release\net8.0\WebApplication1.staticwebassets.runtime.json

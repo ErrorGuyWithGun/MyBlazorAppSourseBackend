@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\controllers\\salesforcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\salesforcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,83 +23,40 @@
       "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\configuration\\loginmodelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\configuration\\loginmodelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\configuration\\registeruserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\configuration\\registeruserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\configuration\\itemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\configuration\\itemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\configuration\\inventoryaccessconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\configuration\\inventoryaccessconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\configuration\\discussiomconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\configuration\\discussiomconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\configuration\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\configuration\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EA34D4F-6D2F-499C-96DA-73EFE88BE7B0}|Web.Email\\Web.Email.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\web.email\\model\\emailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EA34D4F-6D2F-499C-96DA-73EFE88BE7B0}|Web.Email\\Web.Email.csproj|solutionrelative:web.email\\model\\emailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EA34D4F-6D2F-499C-96DA-73EFE88BE7B0}|Web.Email\\Web.Email.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\web.email\\model\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EA34D4F-6D2F-499C-96DA-73EFE88BE7B0}|Web.Email\\Web.Email.csproj|solutionrelative:web.email\\model\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EA34D4F-6D2F-499C-96DA-73EFE88BE7B0}|Web.Email\\Web.Email.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\web.email\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EA34D4F-6D2F-499C-96DA-73EFE88BE7B0}|Web.Email\\Web.Email.csproj|solutionrelative:web.email\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EA34D4F-6D2F-499C-96DA-73EFE88BE7B0}|Web.Email\\Web.Email.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\web.email\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EA34D4F-6D2F-499C-96DA-73EFE88BE7B0}|Web.Email\\Web.Email.csproj|solutionrelative:web.email\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EA34D4F-6D2F-499C-96DA-73EFE88BE7B0}|Web.Email\\Web.Email.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\web.email\\web.email.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4EA34D4F-6D2F-499C-96DA-73EFE88BE7B0}|Web.Email\\Web.Email.csproj|solutionrelative:web.email\\web.email.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\configuration\\apitokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\configuration\\apitokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\models\\authentication\\resetpassword\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\authentication\\resetpassword\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\configuration\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\configuration\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\models\\authentication\\login\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\authentication\\login\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\configuration\\registeruserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\configuration\\registeruserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\models\\inventory\\tagsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\inventory\\tagsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\configuration\\loginmodelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\configuration\\loginmodelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\configuration\\itemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\configuration\\itemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/db25696.public.databaseasp.net/db25696/db25696/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\configuration\\inventoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\configuration\\inventoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|e:\\data research\\itransitionstude\\task 4\\testproj\\webapplication1\\webapplication1\\configuration\\inventoryaccessconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36747F7E-4CA5-4763-90D0-98C1C9E70D90}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\configuration\\inventoryaccessconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -105,102 +66,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAAAC0AAAAxAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\AppDbContext.cs",
+              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAiwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T16:01:34.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginModelConfiguration.cs",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\LoginModelConfiguration.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Configuration\\LoginModelConfiguration.cs",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\LoginModelConfiguration.cs",
-              "RelativeToolTip": "WebApplication1\\Configuration\\LoginModelConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T17:29:21.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InventoryController.cs",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Controllers\\InventoryController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\InventoryController.cs",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Controllers\\InventoryController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\InventoryController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAuwGIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T16:09:11.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAQwFsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T10:26:35.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AdminController.cs",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T16:25:28.028Z",
+              "WhenOpened": "2025-09-15T21:03:50.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "CategoryConfiguration.cs",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\CategoryConfiguration.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Configuration\\CategoryConfiguration.cs",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\CategoryConfiguration.cs",
-              "RelativeToolTip": "WebApplication1\\Configuration\\CategoryConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T00:20:17.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "RegisterUserConfiguration.cs",
               "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\RegisterUserConfiguration.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Configuration\\RegisterUserConfiguration.cs",
               "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\RegisterUserConfiguration.cs",
               "RelativeToolTip": "WebApplication1\\Configuration\\RegisterUserConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T01:05:47.207Z",
+              "WhenOpened": "2025-09-15T20:33:29.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
+              "Title": "LoginModelConfiguration.cs",
+              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\LoginModelConfiguration.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Configuration\\LoginModelConfiguration.cs",
+              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\LoginModelConfiguration.cs",
+              "RelativeToolTip": "WebApplication1\\Configuration\\LoginModelConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:33:28.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ItemConfiguration.cs",
               "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\ItemConfiguration.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Configuration\\ItemConfiguration.cs",
@@ -208,200 +117,138 @@
               "RelativeToolTip": "WebApplication1\\Configuration\\ItemConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T21:57:59.257Z",
+              "WhenOpened": "2025-09-15T20:33:27.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WebApplication1.csproj",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-              "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-              "RelativeToolTip": "WebApplication1\\WebApplication1.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-21T18:22:19.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DiscussiomConfiguration.cs",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\DiscussiomConfiguration.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Configuration\\DiscussiomConfiguration.cs",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\DiscussiomConfiguration.cs",
-              "RelativeToolTip": "WebApplication1\\Configuration\\DiscussiomConfiguration.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABEAAAB6AAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "InventoryConfiguration.cs",
+              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\InventoryConfiguration.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Configuration\\InventoryConfiguration.cs",
+              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\InventoryConfiguration.cs",
+              "RelativeToolTip": "WebApplication1\\Configuration\\InventoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T23:41:36.472Z",
+              "WhenOpened": "2025-09-15T20:33:26.471Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "InventoryAccessConfiguration.cs",
               "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\InventoryAccessConfiguration.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Configuration\\InventoryAccessConfiguration.cs",
               "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\InventoryAccessConfiguration.cs",
               "RelativeToolTip": "WebApplication1\\Configuration\\InventoryAccessConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T23:19:13.582Z",
+              "WhenOpened": "2025-09-15T20:33:25.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EmailConfiguration.cs",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\Web.Email\\Model\\EmailConfiguration.cs",
-              "RelativeDocumentMoniker": "Web.Email\\Model\\EmailConfiguration.cs",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\Web.Email\\Model\\EmailConfiguration.cs",
-              "RelativeToolTip": "Web.Email\\Model\\EmailConfiguration.cs",
+              "DocumentIndex": 2,
+              "Title": "SalesForceController.cs",
+              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Controllers\\SalesForceController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\SalesForceController.cs",
+              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Controllers\\SalesForceController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\SalesForceController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T18:22:01.766Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Message.cs",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\Web.Email\\Model\\Message.cs",
-              "RelativeDocumentMoniker": "Web.Email\\Model\\Message.cs",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\Web.Email\\Model\\Message.cs",
-              "RelativeToolTip": "Web.Email\\Model\\Message.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T01:12:32.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\Web.Email\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "Web.Email\\Services\\EmailService.cs",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\Web.Email\\Services\\EmailService.cs",
-              "RelativeToolTip": "Web.Email\\Services\\EmailService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T21:13:22.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\Web.Email\\Services\\IEmailService.cs",
-              "RelativeDocumentMoniker": "Web.Email\\Services\\IEmailService.cs",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\Web.Email\\Services\\IEmailService.cs",
-              "RelativeToolTip": "Web.Email\\Services\\IEmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T21:14:37.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\AppDbContext.cs",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\AppDbContext.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAQwBsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T13:03:24.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Web.Email.csproj",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\Web.Email\\Web.Email.csproj",
-              "RelativeDocumentMoniker": "Web.Email\\Web.Email.csproj",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\Web.Email\\Web.Email.csproj",
-              "RelativeToolTip": "Web.Email\\Web.Email.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-07T19:29:59.966Z",
+              "WhenOpened": "2025-09-15T20:11:23.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "libman.json",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\libman.json",
-              "RelativeDocumentMoniker": "WebApplication1\\libman.json",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\libman.json",
-              "RelativeToolTip": "WebApplication1\\libman.json",
+              "DocumentIndex": 0,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\InventoryController.cs",
+              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\InventoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:07:30.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAANoAAAAAAAAAAAAqwAMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:00:20.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T20:00:01.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Configuration\\CategoryConfiguration.cs",
+              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\CategoryConfiguration.cs",
+              "RelativeToolTip": "WebApplication1\\Configuration\\CategoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T19:59:27.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApiTokenConfiguration.cs",
+              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\ApiTokenConfiguration.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Configuration\\ApiTokenConfiguration.cs",
+              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Configuration\\ApiTokenConfiguration.cs",
+              "RelativeToolTip": "WebApplication1\\Configuration\\ApiTokenConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T19:59:24.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-07T00:38:04.271Z"
+              "WhenOpened": "2025-09-15T14:28:55.35Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ResetPasswordModel.cs",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Models\\Authentication\\ResetPassword\\ResetPasswordModel.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\Authentication\\ResetPassword\\ResetPasswordModel.cs",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Models\\Authentication\\ResetPassword\\ResetPasswordModel.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\Authentication\\ResetPassword\\ResetPasswordModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAD4v40AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T13:57:06.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Models\\Authentication\\LogIn\\LoginModel.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\Authentication\\LogIn\\LoginModel.cs",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Models\\Authentication\\LogIn\\LoginModel.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\Authentication\\LogIn\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T15:01:40.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "TagsModel.cs",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Models\\Inventory\\TagsModel.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\Inventory\\TagsModel.cs",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Models\\Inventory\\TagsModel.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\Inventory\\TagsModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T23:15:35.676Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Response.cs",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Models\\Response.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\Response.cs",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Models\\Response.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\Response.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T00:22:55.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "dbo.AspNetUsers.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/db25696.public.databaseasp.net/db25696/db25696/SqlTable/dbo.AspNetUsers.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/db25696.public.databaseasp.net/db25696/db25696/SqlTable/dbo.AspNetUsers.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-08-22T10:58:08.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UserController.cs",
-              "ToolTip": "E:\\Data Research\\ItransitionStude\\task 4\\testProj\\WebApplication1\\WebApplication1\\Controllers\\UserController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\UserController.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T17:31:19.519Z"
+              "WhenOpened": "2025-09-14T22:12:15.547Z",
+              "EditorCaption": ""
             }
           ]
         }

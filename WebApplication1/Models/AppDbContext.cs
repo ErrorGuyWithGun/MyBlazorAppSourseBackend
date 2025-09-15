@@ -38,7 +38,6 @@ namespace WebApplication1.Models
             modelBuilder.ApplyConfiguration(new InventoryAccessConfiguration());
             SeedRoles(modelBuilder);
             SeedCategory(modelBuilder);
-            //SeedTags(modelBuilder);
         }
 
         private void SeedRoles(ModelBuilder modelBuilder)

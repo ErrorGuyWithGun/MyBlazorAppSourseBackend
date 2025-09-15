@@ -525,5 +525,31 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SalesforceController",
+    "Method": "CreateAccount",
+    "RelativePath": "api/Salesforce/CreateAccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "account",
+        "Type": "WebApplication1.Models.Salesforce.SalesforceAccount",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SalesforceController",
+    "Method": "GetAccounts",
+    "RelativePath": "api/Salesforce/GetAccounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]
