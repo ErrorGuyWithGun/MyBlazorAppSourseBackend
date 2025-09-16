@@ -171,6 +171,14 @@
               "target": "Package",
               "version": "[9.0.8, )"
             },
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[5.92.0, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.77.0, )"
+            },
             "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
               "target": "Package",
               "version": "[8.14.0, )"

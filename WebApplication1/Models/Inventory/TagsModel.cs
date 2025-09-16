@@ -1,9 +1,18 @@
-﻿namespace WebApplication1.Models.Inventory
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace WebApplication1.Models.Inventory
 {
     public class TagsModel
     {
-        public string? Id { get; set; }
-        public Guid itemId { get; set; }
-        public string? Name { get; set; }
+        [Key]
+        [Required]
+        [MaxLength(50)]
+        public string Id { get; set; } = string.Empty;
+        
+        [Required]
+        [MaxLength(255)]
+        public string Name { get; set; } = string.Empty;
+
+        public ICollection<ItemTagModel> ItemTags { get; set; } = new List<ItemTagModel>();
     }
 }

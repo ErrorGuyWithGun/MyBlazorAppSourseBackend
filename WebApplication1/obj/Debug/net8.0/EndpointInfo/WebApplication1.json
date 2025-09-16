@@ -989,6 +989,44 @@
           "description": {
             "type": "string",
             "nullable": true
+          },
+          "inventory": {
+            "$ref": "#/components/schemas/InventoryModel"
+          },
+          "itemTags": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ItemTagModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ItemTagModel": {
+        "required": [
+          "itemId",
+          "tagId"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "itemId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "tagId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "item": {
+            "$ref": "#/components/schemas/ItemModel"
+          },
+          "tag": {
+            "$ref": "#/components/schemas/TagsModel"
           }
         },
         "additionalProperties": false
@@ -1069,6 +1107,33 @@
           },
           "website": {
             "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TagsModel": {
+        "required": [
+          "id",
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "name": {
+            "maxLength": 255,
+            "minLength": 1,
+            "type": "string"
+          },
+          "itemTags": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ItemTagModel"
+            },
             "nullable": true
           }
         },

@@ -302,51 +302,6 @@ namespace WebApplication1.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("WebApplication1.Models.Inventory.ApiTokenModel", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("CreatedByUserId")
-                        .IsRequired()
-                        .HasMaxLength(450)
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime?>("ExpiresAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<Guid>("InventoryId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<bool>("IsActive")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bit")
-                        .HasDefaultValue(true);
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
-
-                    b.Property<string>("Token")
-                        .IsRequired()
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("InventoryId");
-
-                    b.HasIndex("Token")
-                        .IsUnique();
-
-                    b.ToTable("ApiTokenModel");
-                });
-
             modelBuilder.Entity("WebApplication1.Models.Inventory.CategoryModel", b =>
                 {
                     b.Property<Guid>("Id")
@@ -481,6 +436,9 @@ namespace WebApplication1.Migrations
                         .HasColumnType("varchar")
                         .HasColumnName("Description");
 
+                    b.Property<Guid?>("InventoryId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<string>("Price")
                         .HasMaxLength(255)
                         .HasColumnType("varchar")
@@ -497,68 +455,73 @@ namespace WebApplication1.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("InventoryId");
+
                     b.HasIndex("inventoryId");
 
                     b.ToTable("itemModel");
                 });
 
-            modelBuilder.Entity("WebApplication1.Models.Support.SupportTicket", b =>
+            modelBuilder.Entity("WebApplication1.Models.Inventory.ItemTagModel", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("uniqueidentifier")
+                        .HasColumnName("Id");
 
-                    b.Property<string>("AdminEmails")
+                    b.Property<Guid>("ItemId")
+                        .HasColumnType("uniqueidentifier")
+                        .HasColumnName("ItemId");
+
+                    b.Property<string>("TagId")
                         .IsRequired()
-                        .HasMaxLength(1000)
-                        .HasColumnType("nvarchar(1000)");
-
-                    b.Property<string>("CloudFileUrl")
-                        .HasMaxLength(2000)
-                        .HasColumnType("nvarchar(2000)");
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("InventoryTitle")
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
-
-                    b.Property<bool>("IsProcessed")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bit")
-                        .HasDefaultValue(false);
-
-                    b.Property<string>("PageLink")
-                        .IsRequired()
-                        .HasMaxLength(1000)
-                        .HasColumnType("nvarchar(1000)");
-
-                    b.Property<int>("Priority")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime?>("ProcessedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("ReportedBy")
-                        .IsRequired()
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.Property<string>("Summary")
-                        .IsRequired()
-                        .HasMaxLength(2000)
-                        .HasColumnType("nvarchar(2000)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("TagId");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CreatedAt");
+                    b.HasIndex("TagId");
 
-                    b.HasIndex("IsProcessed");
+                    b.HasIndex("ItemId", "TagId")
+                        .IsUnique()
+                        .HasDatabaseName("IX_ItemTags_ItemId_TagId");
 
-                    b.HasIndex("ReportedBy");
+                    b.ToTable("ItemTags", (string)null);
+                });
 
-                    b.ToTable("SupportTickets");
+            modelBuilder.Entity("WebApplication1.Models.Inventory.TagsModel", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("Id");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)")
+                        .HasColumnName("Name");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Name")
+                        .IsUnique()
+                        .HasDatabaseName("IX_Tags_Name");
+
+                    b.ToTable("Tags", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "office-tag",
+                            Name = "Office"
+                        },
+                        new
+                        {
+                            Id = "home-tag",
+                            Name = "Home"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -612,17 +575,6 @@ namespace WebApplication1.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("WebApplication1.Models.Inventory.ApiTokenModel", b =>
-                {
-                    b.HasOne("WebApplication1.Models.Inventory.InventoryModel", "Inventory")
-                        .WithMany()
-                        .HasForeignKey("InventoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Inventory");
-                });
-
             modelBuilder.Entity("WebApplication1.Models.Inventory.DiscussionModel", b =>
                 {
                     b.HasOne("WebApplication1.Models.Inventory.InventoryModel", null)
@@ -664,11 +616,46 @@ namespace WebApplication1.Migrations
 
             modelBuilder.Entity("WebApplication1.Models.Inventory.ItemModel", b =>
                 {
+                    b.HasOne("WebApplication1.Models.Inventory.InventoryModel", "Inventory")
+                        .WithMany()
+                        .HasForeignKey("InventoryId");
+
                     b.HasOne("WebApplication1.Models.Inventory.InventoryModel", null)
                         .WithMany()
                         .HasForeignKey("inventoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Inventory");
+                });
+
+            modelBuilder.Entity("WebApplication1.Models.Inventory.ItemTagModel", b =>
+                {
+                    b.HasOne("WebApplication1.Models.Inventory.ItemModel", "Item")
+                        .WithMany("ItemTags")
+                        .HasForeignKey("ItemId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebApplication1.Models.Inventory.TagsModel", "Tag")
+                        .WithMany("ItemTags")
+                        .HasForeignKey("TagId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Item");
+
+                    b.Navigation("Tag");
+                });
+
+            modelBuilder.Entity("WebApplication1.Models.Inventory.ItemModel", b =>
+                {
+                    b.Navigation("ItemTags");
+                });
+
+            modelBuilder.Entity("WebApplication1.Models.Inventory.TagsModel", b =>
+                {
+                    b.Navigation("ItemTags");
                 });
 #pragma warning restore 612, 618
         }

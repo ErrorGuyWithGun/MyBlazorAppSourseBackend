@@ -196,4 +196,16 @@ E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\PortaCapena.OdooJsonRpcClient.dll
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\WebApplication1.staticwebassets.runtime.json
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Graph.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Graph.Core.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.IdentityModel.Validators.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Kiota.Abstractions.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Kiota.Authentication.Azure.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Kiota.Http.HttpClientLibrary.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Kiota.Serialization.Form.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Kiota.Serialization.Json.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Kiota.Serialization.Multipart.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Kiota.Serialization.Text.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\Std.UriTemplate.dll
+E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\bin\Debug\net8.0\appsettings.template.json
 E:\Data Research\ItransitionStude\task 4\testProj\WebApplication1\WebApplication1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

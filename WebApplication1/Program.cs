@@ -78,23 +78,17 @@ builder.Services.AddScoped<SalesforceService>();
 builder.Services.AddAuthorization();
 
 var config = new OdooConfig(
-    apiUrl: "https://testproject.odoo.com/",
-    dbName: "testproject",
-    userName: "Vlad",
-    password: "WeAreHereERROR404"
+    apiUrl: configuration["Odoo:ApiUrl"]!,
+    dbName: configuration["Odoo:DbName"]!,
+    userName: configuration["Odoo:UserName"]!,
+    password: configuration["Odoo:Password"]!
     );
 var odooClient = new OdooClient(config);
 var versionResult = await odooClient.GetVersionAsync();
 var loginResult = await odooClient.LoginAsync();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(@"Server=db26079.public.databaseasp.net; 
-                        Database=db26079; 
-                        User Id=db26079; 
-                        Password=Yg3=f#K4N5!y; 
-                        Encrypt=True;
-                        TrustServerCertificate=True;
-                        MultipleActiveResultSets=True;"));
+    options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddCors(options =>
     {

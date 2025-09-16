@@ -26,6 +26,8 @@ namespace WebApplication1.Models
         public DbSet<CategoryModel> CategoryModel { get; set; }
         public DbSet<ItemModel> itemModel { get; set; }
         public DbSet<DiscussionModel> DiscussionModel { get; set; }
+        public DbSet<TagsModel> TagsModel { get; set; }
+        public DbSet<ItemTagModel> ItemTagModel { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -36,8 +38,11 @@ namespace WebApplication1.Models
             modelBuilder.ApplyConfiguration(new LoginModelConfiguration());
             modelBuilder.ApplyConfiguration(new InventoryConfiguration());
             modelBuilder.ApplyConfiguration(new InventoryAccessConfiguration());
+            modelBuilder.ApplyConfiguration(new TagConfiguration());
+            modelBuilder.ApplyConfiguration(new ItemTagConfiguration());
             SeedRoles(modelBuilder);
             SeedCategory(modelBuilder);
+            SeedTags(modelBuilder);
         }
 
         private void SeedRoles(ModelBuilder modelBuilder)
@@ -49,15 +54,15 @@ namespace WebApplication1.Models
                 );
 
         }
-        //private void SeedTags(ModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.Entity<TagsModel>().HasData
-        //        (
-        //        new TagsModel() { Id="office-tag", Name="Office" },
-        //        new TagsModel() { Id= "home-tag", Name="Home" }
-        //        );
+        private void SeedTags(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<TagsModel>().HasData
+                (
+                new TagsModel() { Id = "office-tag", Name = "Office" },
+                new TagsModel() { Id = "home-tag", Name = "Home" }
+                );
 
-        //}
+        }
 
         private void SeedCategory(ModelBuilder modelBuilder)
         {
